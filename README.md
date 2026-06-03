@@ -167,7 +167,6 @@ embeddings/
 ```
 ml_hw2/
 ├── reward_model_pipeline.py   # ANA PIPELINE (veri→embedding→eğitim→metrik→grafik)
-├── video_konusma_metni.md     # 5–8 dk video sunum metni (yer tutuculu)
 ├── requirements.txt           # Gerekli paketler
 ├── README.md                  # Bu dosya
 ├── .gitignore
@@ -209,7 +208,6 @@ GPU önerilir ama zorunlu değil. Kod cihazı otomatik seçer:
 ## 10. Teslim kontrol listesi
 
 - [ ] `python reward_model_pipeline.py` tam veriyle çalıştı, `sonuclar/` doldu
-- [ ] `video_konusma_metni.md` içindeki `[…]` yer tutucuları gerçek sayılarla dolduruldu
 - [ ] 5–8 dk video çekildi ve YouTube'a yüklendi, bağlantı rapora eklendi
 - [ ] Kod + rapor + video bağlantısı `online.yildiz.edu.tr`'ye yüklendi
 
