@@ -1,0 +1,26 @@
+# ====================================================================
+# Ödül Modeli Eğitimi - Gerekli Python paketleri
+# Kurulum:  pip install -r requirements.txt
+# (GPU için PyTorch'u kendi CUDA sürümünüze göre kurmanız önerilir:
+#  https://pytorch.org/get-started/locally/ )
+# ====================================================================
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+
+
+torch>=2.1
+transformers>=4.41
+sentence-transformers>=3.0
+
+einops>=0.7
+accelerate>=0.30
+peft>=0.3
+
+openpyxl>=3.1
+
+
+xgboost>=2.0

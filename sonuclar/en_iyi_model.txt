@@ -1,0 +1,15 @@
+EN İYİ MODEL (en düşük RMSE)
+========================================
+embedding           harrier-oss-0.6b
+algoritma               RandomForest
+RMSE                        1.098866
+MAE                         0.850294
+R2                           0.07177
+Spearman                    0.191137
+Pearson                     0.280518
+Acc(yuvarlanmis)               0.368
+Acc(+-1)                       0.861
+boyut                           1024
+egitim_n                       11134
+test_n                          1000
+sure_s                        252.58

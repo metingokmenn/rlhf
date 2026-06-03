@@ -1,0 +1,53 @@
+# ============================================================
+#  Ödül Modeli Eğitimi — .gitignore
+# ============================================================
+
+# --- Python sanal ortamı ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python derleme/önbellek ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Üretilen çıktılar (yeniden üretilebilir; depoda tutmaya gerek yok) ---
+embeddings/          # .npy embedding önbelleği (büyük)
+sonuclar/            # metrikler.csv, pivotlar, grafikler
+
+# --- Veri dosyaları (büyük / paylaşılmaması gerekebilir) ---
+# Teslimde veriyi ayrıca gönderiyorsanız depoya koymayın.
+*.xlsx
+*.xls
+*.csv
+!requirements.txt   # (csv değil ama güvenlik için istisnalar burada)
+
+# --- HuggingFace model önbelleği (yanlışlıkla klasöre inerse) ---
+.cache/
+hf_cache/
+models/
+
+# --- İşletim sistemi ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# --- Editör / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
