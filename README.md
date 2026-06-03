@@ -1,6 +1,6 @@
 # Ödül Modeli Eğitimi (Reward Model)
 
-**Bilgi Teknolojileri / Yapay Zeka Teknikleri — Ödev 1 (2025/2)**
+**Bilgi Teknolojileri / Yapay Zeka Teknikleri — Ödev 2 (2026/2)**
 
 Bir LLM'in ürettiği cevabın kalitesini, metin embedding'lerinden yola çıkarak
 **1–5 arası bir puanla** tahmin eden bir ödül modeli. Çalışma, **4 embedding
@@ -204,12 +204,6 @@ GPU önerilir ama zorunlu değil. Kod cihazı otomatik seçer:
   (ödev için kabul edilebilir, raporda belirtilir).
 
 ---
-
-## 10. Teslim kontrol listesi
-
-- [ ] `python reward_model_pipeline.py` tam veriyle çalıştı, `sonuclar/` doldu
-- [ ] 5–8 dk video çekildi ve YouTube'a yüklendi, bağlantı rapora eklendi
-- [ ] Kod + rapor + video bağlantısı `online.yildiz.edu.tr`'ye yüklendi
 
 ---
 
